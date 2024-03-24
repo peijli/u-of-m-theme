@@ -1,0 +1,21 @@
+{
+  "name": "u-of-m-theme",
+  "displayName": "U of M Theme",
+  "description": "Maize and blue colored dark theme for sweaty EECS nerds at U-M",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "U of M Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/U of M Theme-color-theme.json"
+      }
+    ]
+  }
+}
